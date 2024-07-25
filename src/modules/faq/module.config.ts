@@ -1,0 +1,10 @@
+import { API_GATEWAY_FAQ_TO_CMS_MICROSERVICE_KAFKA_REGISTRY } from "./registry/kafka.registry";
+import { CMS_MICROSERVICE_TCP_REGISTRY } from "./registry/tcp.registry";
+
+export const MODULE_CONFIG = {
+  transport: process.env.CMS_MICROSERVICE_TRANSPORT,
+  TCP: CMS_MICROSERVICE_TCP_REGISTRY,
+  KAFKA: API_GATEWAY_FAQ_TO_CMS_MICROSERVICE_KAFKA_REGISTRY,
+  REDIS: {},
+  RABBITMQ: {},
+};

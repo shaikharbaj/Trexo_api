@@ -1,0 +1,15 @@
+1) Command to generate new module in specific path
+Command :- nest generate resource ./modules/auth
+
+2) Microservice Package for nestJS
+Command :- npm i --save @nestjs/microservices
+URL :- https://docs.nestjs.com/microservices/basics
+
+3) Package for dot env Package
+Command :- npm i dotenv
+
+4) Package for logging exception in file
+Command :-
+npm install --save nest-winston winston
+npm install --save winston-daily-rotate-file
+Reference :- https://blog.stackademic.com/implementing-a-custom-logger-in-nestjs-a-step-by-step-guide-2f0a2d75d2e7#:~:text=Using%20Custom%20Logging%20Config%20in%20main.&text=ts%20file.,can%20pass%20the%20Logger%20configuration.

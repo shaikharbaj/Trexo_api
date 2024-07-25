@@ -1,0 +1,9 @@
+import { AUTH_MICROSERVICE_TCP_REGISTRY } from "./registry/tcp.registry";
+import { API_GATEWAY_AUTH_TO_AUTH_MICROSERVICE_KAFKA_REGISTRY } from "./registry/kafka.registry";
+export const MODULE_CONFIG = {
+  transport: process.env.AUTH_MICROSERVICE_TRANSPORT,
+  TCP: AUTH_MICROSERVICE_TCP_REGISTRY,
+  KAFKA: API_GATEWAY_AUTH_TO_AUTH_MICROSERVICE_KAFKA_REGISTRY,
+  REDIS: {},
+  RABBITMQ: {},
+};
